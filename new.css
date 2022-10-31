@@ -1,0 +1,23 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: grid;
+}
+
+.clock-block {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    z-index: 1;
+    box-shadow: 0 3px 5px rgba(104, 103, 103, 0.3);
+    border-radius: 50%;
+    background-color: #cccccc1a;
+}
+
+#gradient-canvas {
+    --gradient-color-1: #6ec3f4;
+    --gradient-color-2: #3a3aff;
+    --gradient-color-3: #ad38fc;
+    --gradient-color-4: #e219b7;
+}

@@ -1,0 +1,12 @@
+{
+  "name": "Newtab",
+  "description": "Have fun!",
+  "version": "1.0",
+  "manifest_version": 3,
+  "chrome_url_overrides" : {
+    "newtab": "new.html"
+  },
+  "permissions": [
+    "tabs"
+  ]
+}
